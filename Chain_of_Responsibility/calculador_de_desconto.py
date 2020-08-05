@@ -18,7 +18,7 @@ if __name__ == '__main__':
     orcamento.adiciona_item(Item('ITEM - 1', 100))
     orcamento.adiciona_item(Item('ITEM - 2', 50))
     orcamento.adiciona_item(Item('ITEM - 3', 400))
-    
+
     calculador = Calculador_de_Descontos()
 
     desconto = calculador.calcula(orcamento)
