@@ -42,6 +42,7 @@ class Nota_fiscal(object):
         return self.__detalhes
 
 ##Exemplo de construtor de uma objeto com as classes Nota_fiscal e Item
+## utilizando recursos da linguagem
 
 if __name__ == '__main__':
 
