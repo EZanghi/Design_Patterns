@@ -57,9 +57,9 @@ if __name__ == '__main__':
     ]
 
     nota_fiscal = Nota_fiscal(
-        'FHSA Limitada',
-        '012345678901234',
-        itens,
-        date.today(),
-        ''
+        razao_social='FHSA Limitada',
+        cnpj='012345678901234',
+        itens=itens,
+        data_de_emissao=date.today(),
+        detalhes=''
     )
